@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shopsystem</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_clear_all">Clear all</string>
+    <string name="AD_clear_all_no">Cancel</string>
+    <string name="AD_clear_all_yes">Delete</string>
+    <string name="AD_choose_card_yes">Yes</string>
+    <string name="AD_choose_card_no">No</string>
+    <string name="button_save">Save</string>
+    <string name="card_update_name">Update</string>
+    <string name="AD_ok">OK</string>
+    <string name="button_add_product">Add Product</string>
+    <string name="Button_show_product">Show Products</string>
+    <string name="Button_add_credicard">Add Credit Card</string>
+    <string name="Button_show_creditcard">Show Credit Card</string>
+    <string name="Button_end_purchase">Continue Shopping</string>  
+</resources>

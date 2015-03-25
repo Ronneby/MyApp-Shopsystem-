@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/card_update"
+        android:title="@string/card_update_name"/>
+    
+    <item
+        android:id="@+id/card_delete"
+        android:title="@string/AD_clear_all_yes"/>
+
+</menu>

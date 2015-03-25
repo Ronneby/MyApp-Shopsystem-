@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_show_credit_card"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_add_credit_card"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="84dp"
+        android:text="@string/Button_show_creditcard" />
+
+    <Button
+        android:id="@+id/btn_add_credit_card"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btn_show_credit_card"
+        android:layout_alignLeft="@+id/btn_show_product"
+        android:layout_marginBottom="27dp"
+        android:text="@string/Button_add_credicard" />
+
+    <Button
+        android:id="@+id/btn_show_product"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_add_product"
+        android:layout_centerVertical="true"
+        android:text="@string/Button_show_product" />
+
+    <Button
+        android:id="@+id/btn_add_product"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btn_show_product"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="@string/button_add_product" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
